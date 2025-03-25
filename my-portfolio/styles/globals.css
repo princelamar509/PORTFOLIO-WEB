@@ -752,7 +752,7 @@ body {
     justify-content: center;
     animation: fadeIn 1s ease-out 1.2s;
     animation-fill-mode: both;
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
 
   .image-wrapper {
