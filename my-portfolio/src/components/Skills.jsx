@@ -77,7 +77,7 @@ const Skills = () => {
                       className="progress-bar"
                       initial={{ width: 0 }}
                       animate={isInView ? { width: `${skill.level}%` } : {}}
-                      transition={{ duration: 1.5, ease: "easeOut", delay: index * 0.8 }}
+                      transition={{ duration: 1.5, ease: "easeOut", delay: index * 0.9 }}
                     />
                   </div>
                 </div>

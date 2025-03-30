@@ -439,6 +439,14 @@ body {
   transform: translateY(-1px);
 }
 
+.form-status {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
 .social-links {
   display: flex;
   justify-content: center;

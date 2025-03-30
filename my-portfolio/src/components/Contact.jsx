@@ -1,4 +1,33 @@
+import { useState } from 'react';
+
+
 const Contact = () => {
+    const [formData, setFormData] = useState({
+      name: '',
+      email: '',
+      message: '',
+      subject : ''
+    });
+  
+    const [formStatus, setFormStatus] = useState('');
+  
+    const handleChange = (e) => {
+      const { name, value } = e.target;
+      setFormData({ ...formData, [name]: value });
+    };
+  
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      if (formData.name && formData.email && formData.message) {
+        setFormStatus('Message sent successfully!');
+        setFormData({ name: '', email: '', message: '' , subject: ''});
+      } else {
+        setFormStatus('Please fill in all fields.');
+      }
+    };
+  
+
+
   return (
     <section id="contact">
       <h2 className="contact-heading">Contact Me</h2>
@@ -33,22 +62,23 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <form className="contact-form">
+        <form className="contact-form" onSubmit={handleSubmit}>
           <h3>Send Me a Message</h3>
           <div className="form-group">
-            <input type="text" placeholder="Your Name" required />
+            <input type="text" name='name' placeholder="Your Name" value={formData.name}  onChange={handleChange} required={true} />
           </div>
           <div className="form-group">
-            <input type="email" placeholder="Your Email" required />
+            <input type="email" name='email' placeholder="Your Email"  value={formData.email} onChange={handleChange} required={true} />
           </div>
           <div className="form-group">
-            <input type="text" placeholder="Subject" required />
+            <input type="text" name='subject' placeholder="Subject" value={formData.subject} onChange={handleChange} required={true} />
           </div>
           <div className="form-group">
-            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <textarea name='message' placeholder="Your Message" rows="5"  value={formData.message} onChange={handleChange} ></textarea>
           </div>
-          <button type="submit" className="submit-btn">Send Message</button>
+          <button type="submit" className="submit-btn" >Send Message</button>
         </form>
+        {formStatus && <p className="form-status">{formStatus}</p>}
       </div>
       <div className="social-links">
         <a href="https://www.linkedin.com/in/madeus-rene-294196318/?trk=opento_sprofile_details" className="social-link">LinkedIn</a>
