@@ -13,7 +13,7 @@ const Skills = () => {
         { name: "HTML5/CSS3", level: 95 },
         { name: "JavaScript (ES6+)", level: 80 },
         { name: "React.js", level: 82 },
-        { name: "TypeScript", level: 70 },
+        { name: "React Native", level: 60 },
         { name: "Node.js", level: 80 },
         { name: "Responsive Design", level: 95 },
         { name: "Redux", level: 85 },
