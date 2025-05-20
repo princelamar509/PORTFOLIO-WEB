@@ -36,7 +36,7 @@ const Announcement = ({ onClose }) => {
         
         <div className="announcement-content">
           <div className="announcement-section">
-            <h3>🚀 My App is Live!</h3>
+            <h3>🚀 My App is Live! </h3>
             <p>
               My dating app <strong>SETTLE</strong> just launched on <strong>iOS App Store</strong>!
               Join the community of people who are done with dating games.
@@ -48,7 +48,7 @@ const Announcement = ({ onClose }) => {
                 <span className="stat-label">Early Users</span>
               </div>
               <div className="app-stat">
-                <span className="stat-number">4.8</span>
+                <span className="stat-number">4.9</span>
                 <span className="stat-label">App Rating</span>
               </div>
               <div className="app-stat">
