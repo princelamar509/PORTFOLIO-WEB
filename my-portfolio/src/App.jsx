@@ -5,11 +5,16 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Announcement from "./components/Announcement";
+import { useState } from "react";
 
 function App() {
+  const [showAnnouncement, setShowAnnouncement]= useState(true);
+
   return (
     <>
-      <Navbar />
+    {showAnnouncement && <Announcement onClose={() => setShowAnnouncement(false)} />}
+      <Navbar  showAnnouncement= {() => setShowAnnouncement(true)}/>
       <Hero />
       <About />
       <Skills />

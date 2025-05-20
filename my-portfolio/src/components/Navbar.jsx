@@ -4,7 +4,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram, FaSyncAlt } from "r
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 0);
-  
+
   // Handle window resize
   useEffect(() => {
     const handleResize = () => {
@@ -84,6 +84,8 @@ const Navbar = () => {
                 <FaInstagram size={25} />
               </a>
             </div>
+
+      
           </div>
         </nav>
         
