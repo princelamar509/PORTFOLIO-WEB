@@ -18,17 +18,20 @@ const About = () => {
             <div className="detail-box">
               <h3>🎯 Focus Areas</h3>
               <ul>
+                <li>React Native</li>
                 <li>Responsive Web Design</li>
                 <li>UI/UX Best Practices</li>
                 <li>Performance Optimization</li>
                 <li>Interactive Animations</li>
                 <li>Modern Front-End Architecture</li>
+                <li>Web Accessibility</li>        
               </ul>
             </div>
 
             <div className="detail-box">
               <h3>🚀 Tech Stack</h3>
               <ul>
+                <li>Expo/Firebase</li>
                 <li>React.js, Node.js</li>
                 <li>JavaScript (ES6+)</li>
                 <li>CSS3, SASS, Styled Components</li>

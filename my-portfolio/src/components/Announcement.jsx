@@ -18,7 +18,7 @@ const Announcement = ({ onClose }) => {
     const timer = setTimeout(() => {
       // Uncomment to enable auto-hide
       // handleNext();
-    }, 30000);
+    }, 3000);
     
     return () => clearTimeout(timer);
   }, []);
