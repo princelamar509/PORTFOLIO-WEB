@@ -13,7 +13,7 @@ const Skills = () => {
         { name: "HTML5/CSS3", level: 95 },
         { name: "JavaScript (ES6+)", level: 80 },
         { name: "React.js", level: 82 },
-        { name: "React Native", level: 60 },
+        { name: "React Native", level: 70 },
         { name: "Node.js", level: 80 },
         { name: "Responsive Design", level: 95 },
         { name: "Redux", level: 85 },
@@ -26,8 +26,9 @@ const Skills = () => {
         { name: "Git & GitHub", level: 90 },
         { name: "MacOS", level: 70 },
         { name: "D3JS", level: 75 },
-        { name: "Vercel", level: 60 },
+        { name: "Expo", level: 60 },
         { name: "Visual Studio Code", level: 70 },
+        
       ,
        
       ],
@@ -39,13 +40,13 @@ const Skills = () => {
     { name: "Three.js", icon: "📚" },
     { name: "Python", icon: "📚" },
     { name: "Machine Learning", icon: "🤖" },
-    { name: "GraphQL Advanced", icon: "🛠" },
+    { name: "GraphQL Advanced", icon: "🛠" }
   ];
 
   const otherTools = [
     "TypeScript", "SASS/SCSS", "Tailwind CSS", "Styled Components", "Material UI",
     "GraphQL", "AWS", "Docker", "Netlify", "Vercel", "SEO Optimization",
-    "Accessibility", "Performance Optimization"
+    "Accessibility", "Performance Optimization", "EAS/EXPO"
   ];
 
   return (
