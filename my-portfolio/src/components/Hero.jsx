@@ -28,7 +28,7 @@ const Hero = () => {
           <p className="hero-title">Front-End Developer</p>
           <p className="info">
             I craft beautiful and responsive web experiences with modern technologies.
-            Specializing in React, JavaScript, and UI/UX design principles to create
+            Specializing in React/Native, JavaScript, and UI/UX design principles to create
             engaging digital solutions that drive business growth.
           </p>
           
@@ -66,6 +66,7 @@ const Hero = () => {
             <span className="tech-badge">HTML5</span>
             <span className="tech-badge">CSS3</span>
             <span className="tech-badge">Node.js</span>
+            <span className="tech-badge">Next.js</span> 
           </div>
         </div>
       </div>
