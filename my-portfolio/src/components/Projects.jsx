@@ -2,7 +2,7 @@ import { useState } from "react";
 import ecommerce from "../assets/ecommerce.jpeg";
 import securepay from "../assets/securepay.jpeg";
 import weather from "../assets/weather.jpeg";
-
+import Settle from "../assets/Settle.jpeg";
 const projectsData = [
   { id: 1,
     title: "E-commerce Platform", 
@@ -31,17 +31,19 @@ const projectsData = [
         liveDemo: "https://princelamar509.github.io/WEATHERAPP/",
         SourceCode: "https://github.com/princelamar509/WEATHERAPP"
     },
-    /*
+   
     { id: 4,
-     title: "Portfolio Template", 
-     category: "UI/UX", 
-     img: "https://via.placeholder.com/600x400",
-      description: "A customizable portfolio website template for developers with smooth animations and modern design.",
-       tech: ["React", "GSAP", "Styled Components", "Netlify"],
+     title: "Dating app Settle", 
+     category: "UI/UX React Native ", 
+     img: Settle,
+      description: "This a Dating app that foollow the same rules as all dating with different features focuse on intentional dating .A killer feature that allow user to request for date instead of endless swiping of course theres swipe now it just optional. Beta live now on Ios & Android 𛱘  refresh the page and send me a email .",
+       tech: ["React Native ", "Firebase", "Styled Components", "Expo CLI"],
        liveDemo: "https://princelamar509.github.io/Portfolio-Template/",
        SourceCode: "https://github.com/princelamar509/Portfolio-Template/tree/main"
 
-   },
+   }
+
+    /*
   { id: 5,
      title: "Fitness Tracker",
       category: "Node.js", 
