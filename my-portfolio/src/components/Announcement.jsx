@@ -76,7 +76,7 @@ export default function GeoPinsAnnouncement({
             </svg>
             */}
           </div>
-          <h2 id="geopins-annc-title">🧭 Welcome to GeoPins</h2>
+          <h2 id="geopins-annc-title">🧭 Welcome to Portfolio</h2>
           <button className="close-button" onClick={close} aria-label="Close">×</button>
         </div>
 
@@ -111,7 +111,7 @@ export default function GeoPinsAnnouncement({
             <h3>🛠️ Portfolio Note</h3>
             <p>
               I’m actively building GeoPins, so this portfolio’s getting a refresh soon.
-              Thanks for stopping by — new demos on the way!
+              Thanks for stopping by new demos on the way! keep in touch for more !!
             </p>
           </div>
         </div>
